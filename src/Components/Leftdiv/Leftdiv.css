@@ -1,0 +1,92 @@
+.main-leftdiv{
+    width: 410;
+    height: 405;
+    margin-right: 3rem;
+}
+
+img{
+    position: relative;
+    top: 38px;
+    left: 22px;
+}
+
+.main-leftdiv p{
+    color: var(--Dark-grayish-cyan);
+}
+
+.main-leftdiv input{
+    font-size: 24px;
+}
+
+.tip-buttons{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tip-buttons button{
+    background-color: var(--Very-dark-cyan);
+    border: none;
+    color: var(--White);
+    border-radius: 0.3rem;
+    width: 7rem;
+    height: 3rem;
+    margin-right: 0.6rem;
+    cursor: pointer;
+    margin-bottom: 0.6rem;
+}
+
+.tip-buttons input{
+    color: var(--Very-dark-cyan);
+    background-color: var();
+    border: none;
+    background-color: var(--Very-light-grayish-cyan);
+    border-radius: 0.5rem;
+    width: 7rem;
+    height: 3rem;
+    margin-right: 0.6rem;
+    cursor: pointer;
+    margin-bottom: 0.6rem;
+    padding: .5rem;
+}
+
+.tip-buttons button:hover{
+    background-color: var(--Light-grayish-cyan);
+    border: none;
+    color: var(--Very-dark-cyan);
+}
+
+.bill p{
+    margin-bottom: -1rem;
+}
+
+.bill input{
+    border: none;
+    background-color: var(--Very-light-grayish-cyan);
+    border-radius: 0.4rem;
+    height: 3rem;
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+.number-people p{
+    margin-bottom: -0.9rem;
+}
+
+.number-people input{
+    border: none;
+    border-radius: 0.4rem;
+    height: 3rem;
+    width: 100%;
+    padding: 0.6rem;
+    background-color: var(--Very-light-grayish-cyan);
+}
+
+input:focus {
+    outline-color: var(--Strong-cyan);
+    border: 1px;
+}
+
+input{
+    text-align: right;
+}

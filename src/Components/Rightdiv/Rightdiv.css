@@ -1,0 +1,50 @@
+.main-rightdiv{
+    width: 425px;
+    height: 405px;
+    padding: 2rem;
+    background-color: var(--Very-dark-cyan);
+    border-radius: 1.2rem;
+}
+
+.reset-btn{
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: var(--Strong-cyan);
+    border: none;
+    color: var(--Very-dark-cyan);
+    font-size: 20px;
+    padding: .5rem 0 0.5rem;
+    border-radius: 0.4rem;
+}
+
+.reset-btn:hover{
+    background-color: var(--Light-grayish-cyan);
+}
+
+.main-rightdiv .title{
+    color: var(--White);
+}
+
+.main-rightdiv .person{
+    color: var(--Grayish-cyan);
+    font-size: 14px;
+}
+
+.main-rightdiv h1{
+    font-size: 3rem;
+    color: var(--Strong-cyan);
+    margin: 0;
+    padding: 0;
+}
+
+.tip-amount, .total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total{
+    margin-top: 2rem;
+    margin-bottom: 7.6rem;
+}

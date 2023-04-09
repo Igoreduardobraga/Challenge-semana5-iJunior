@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+:root {
+    --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Dark-grayish-cyan: hsl(186, 14%, 43%);
+    --Grayish-cyan: hsl(184, 14%, 56%);
+    --Light-grayish-cyan: hsl(185, 41%, 84%);
+    --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --Strong-cyan: hsl(172, 67%, 45%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+button{
+    font-size: 24px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Light-grayish-cyan);
+}
+
+.App h1{
+    margin-bottom: 3.5rem;
+    word-spacing: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: var(--Dark-grayish-cyan);
+    font-size: 24px;
+}

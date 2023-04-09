@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    background-color: var(--White);
+    border-color: red 2px solid;
+    /* box-shadow: 1px 1 var(--Light-grayish-cyan); */
+    width: 922px;
+    height: 484px;
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+}
