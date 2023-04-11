@@ -31,11 +31,9 @@
     font-size: 14px;
 }
 
-.main-rightdiv h1{
-    font-size: 3rem;
+.tip-amount-value, .total-value{
+    font-size: 3.1rem;
     color: var(--Strong-cyan);
-    margin: 0;
-    padding: 0;
 }
 
 .tip-amount, .total{
@@ -45,6 +43,6 @@
 }
 
 .total{
-    margin-top: 2rem;
-    margin-bottom: 7.6rem;
+    margin-top: 1rem;
+    margin-bottom: 7.4rem;
 }
